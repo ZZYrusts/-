@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Local runtime data and secrets
+.env
+.env.*
+!.env.example
+qq音乐.txt
+QQ音乐.txt
+网易云.txt
+Favorites_Web.json
+
+# Logs and caches
+*.log
+.pytest_cache/
+.coverage
+
+# Local experiments and generated workspace artifacts
+/audio_direct/
+/screenmcp/
+XMNMusic-src.zip
